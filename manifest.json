@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Nuki Nashe-2022 Votes",
+  "description": "Голосовалка за Нуки на сайте www.nashe.ru/chartova2022",
+  "version": "0.0.1",
+  "author": "Артем Золин",
+  "browser_action": {
+    "default_title": "Nuki Nashe-2022 Votes",
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.nashe.ru/chartova2022"
+      ],
+      "js": ["content.js", "remover.js"]
+    }
+  ],
+  "permissions": ["activeTab"]
+}

@@ -1,0 +1,42 @@
+<!-- Здесь описываем дизайн пользовательского интерфейса -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+  body {
+    background: #fafafa;
+    padding: 15px;
+  }
+
+  h3 {color: #333}
+
+  .hidden {
+    display: none !important;
+  }
+
+  button {
+    padding: 10px 0;
+    width: 150px;
+    outline: none;
+    background: #fafafa;
+    border: 1px solid silver;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  button:hover {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+  }
+  </style>
+</head>
+<body>
+  <h3>Голосовалка за Нуки</h3>
+  <p>Расширение сортирует номинации на сайте <a href="https://www.nashe.ru/chartova2022">www.nashe.ru/chartova2022</a></p>
+  <button class="hidden" id="blackBg">Сделать темный фон</button>
+  <script src="remover.js"></script>
+</body>
+</html>
