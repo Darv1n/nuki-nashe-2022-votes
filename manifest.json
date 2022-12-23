@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "Nuki Nashe-2023 Votes",
-  "description": "Голосовалка за Нуки на сайте www.nashe.ru/chartova2022",
-  "version": "2.0.0",
+  "description": "Голосовалка за Нуки на сайте www.nashe.ru/chartova2023",
+  "version": "2.0.1",
   "author": "https://github.com/Darv1n",
   "icons": {
     "16": "icons/icon16.png",
